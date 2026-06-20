@@ -1,0 +1,10 @@
+# 内部 / 个人文件 — 不公开发布
+CLAUDE.md
+.claude/
+v1.0_合作者交付说明.docx
+
+# 运行产出 / 缓存
+paper_reproduction_output/
+__pycache__/
+*.pyc
+.DS_Store
