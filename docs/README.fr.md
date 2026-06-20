@@ -12,9 +12,9 @@
 
 # ReproRun
 
-> Donnez-lui un article. Il vous dit si les résultats se reproduisent vraiment.
+> Donnez-lui un article. Il vous dit si les résultats se reproduisent réellement.
 
-**ReproRun** est une compétence (skill) personnalisée pour [Claude Code](https://claude.com/claude-code) qui automatise le chemin pénible allant de *« un article affirme X »* à *« X tourne réellement sur ma machine. »* Les articles présentent de beaux chiffres ; les reproduire échoue généralement à cause de code cassé, d'environnements impossibles à construire et de dérives de versions. ReproRun gère l'ensemble du pipeline de bout en bout :
+**ReproRun** est une **compétence d'agent IA** portable — utilisable par n'importe quel assistant de codage IA compatible — qui automatise le parcours pénible allant de *« un article affirme X »* à *« X s'exécute vraiment sur ma machine »*. Les articles présentent de beaux chiffres ; leur reproduction échoue généralement à cause de code cassé, d'environnements impossibles à construire et de dérives de versions. ReproRun gère l'ensemble du pipeline de bout en bout :
 
 **lire l'article → trouver le code et les données → construire l'environnement → test de fumée → exécution complète → comparer les chiffres mesurés aux affirmations de l'article.**
 
@@ -73,11 +73,11 @@ Validé de bout en bout sur 4 articles dans différents domaines et langages :
 
 ## 📦 Pour commencer
 
-ReproRun est une compétence Claude Code. Pour l'utiliser :
+ReproRun est une compétence d'agent qui fonctionne avec n'importe quel assistant de codage IA compatible. Pour l'utiliser :
 
-1. Installez [Claude Code](https://claude.com/claude-code).
-2. Placez le dossier `paper-reproduction/` là où Claude Code peut charger les compétences.
-3. Dans une session Claude Code, il suffit de demander — par ex. *« reproduis scVelo »* ou *« reproduis le Tableau 2 de cet article. »* La compétence se déclenche automatiquement.
+1. Utilisez un agent de codage IA capable de charger des compétences.
+2. Placez le dossier `paper-reproduction/` là où votre agent charge les compétences.
+3. Dans une session, il suffit de demander — par ex. *« reproduis scVelo »* ou *« reproduis le Tableau 2 de cet article. »* La compétence se déclenche automatiquement.
 
 ---
 
@@ -102,4 +102,4 @@ Licence : **[PolyForm Noncommercial License 1.0.0](../LICENSE)** · [Voir la lic
 
 ## 📌 Statut
 
-**v1.0.0** · stable (mode maintenance) · maintenu sur Claude Code
+**v1.0.0** · stable (mode maintenance)

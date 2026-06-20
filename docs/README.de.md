@@ -14,19 +14,19 @@
 
 > Gib ihm ein Paper. Es sagt dir, ob sich die Ergebnisse tatsächlich reproduzieren lassen.
 
-**ReproRun** ist ein benutzerdefinierter [Claude Code](https://claude.com/claude-code) Skill, der den mühsamen Weg von *„ein Paper behauptet X"* zu *„X läuft tatsächlich auf meinem Rechner"* automatisiert. Papers liefern schöne Zahlen; ihre Reproduktion scheitert meist an kaputtem Code, nicht baubaren Umgebungen und Versionsdrift. ReproRun übernimmt die gesamte Pipeline von Anfang bis Ende:
+**ReproRun** ist ein portabler **KI-Agenten-Skill** — nutzbar mit jedem kompatiblen KI-Coding-Assistenten — der den mühsamen Weg von *„ein Paper behauptet X“* zu *„X läuft tatsächlich auf meinem Rechner“* automatisiert. Papers liefern wunderschöne Zahlen; ihre Reproduktion scheitert meist an kaputtem Code, nicht baubaren Umgebungen und Versionsdrift. ReproRun bewältigt die gesamte Pipeline von Anfang bis Ende:
 
 **Paper lesen → Code & Daten finden → Umgebung bauen → Smoke-Test → vollständiger Lauf → gemessene Zahlen mit den Behauptungen des Papers vergleichen.**
 
 ---
 
-## ✨ Gebaut, um sich anzupassen — über jede Plattform hinweg
+## ✨ Gebaut zur Anpassung — auf jeder Plattform
 
-ReproRun ist darauf ausgelegt, sich **an alles anzupassen, was ihm übergeben wird**, statt von einem einzigen festen Setup auszugehen:
+ReproRun ist darauf ausgelegt, sich **an alles anzupassen, was ihm übergeben wird**, anstatt von einem festen Setup auszugehen:
 
 - **Plattformübergreifend** — läuft unter Windows, macOS und Linux
 - **Sprachübergreifend** — vollständige Pipeline für Python; minimaler Pfad für R / MATLAB / Julia
-- **Domänenübergreifend** — Einzelzellbiologie, Bild-ML und mehr, ohne Umverdrahtung pro Domäne
+- **Domänenübergreifend** — Einzelzellbiologie, Bild-ML und mehr, ohne domänenspezifische Umverdrahtung
 - **Modusübergreifend** — *Tool-Modus* (`pip install` + ein aufrufendes Skript schreiben) oder *Experiment-Modus* (das Repo klonen & seine Skripte ausführen) — automatisch pro Paper ausgewählt
 
 ---
@@ -73,11 +73,11 @@ Von Anfang bis Ende an 4 Papers aus verschiedenen Domänen und Sprachen validier
 
 ## 📦 Erste Schritte
 
-ReproRun ist ein Claude Code Skill. So verwendest du es:
+ReproRun ist ein Agenten-Skill, der mit jedem kompatiblen KI-Coding-Assistenten funktioniert. So verwendest du es:
 
-1. Installiere [Claude Code](https://claude.com/claude-code).
-2. Lege den Ordner `paper-reproduction/` dort ab, wo Claude Code Skills laden kann.
-3. Frage in einer Claude Code Sitzung einfach danach — z. B. *„reproduce scVelo"* oder *„reproduce Table 2 from this paper."* Der Skill wird automatisch ausgelöst.
+1. Verwende einen KI-Coding-Agenten, der Skills laden kann.
+2. Lege den Ordner `paper-reproduction/` dort ab, wo dein Agent Skills lädt.
+3. Frage in einer Sitzung einfach danach — z. B. *„reproduce scVelo“* oder *„reproduce Table 2 from this paper.“* Der Skill wird automatisch ausgelöst.
 
 ---
 
@@ -102,4 +102,4 @@ Lizenz: **[PolyForm Noncommercial License 1.0.0](../LICENSE)** · [Lizenz auf Ch
 
 ## 📌 Status
 
-**v1.0.0** · stabil (Wartungsmodus) · gepflegt auf Claude Code
+**v1.0.0** · stabil (Wartungsmodus)

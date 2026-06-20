@@ -12,9 +12,9 @@
 
 # ReproRun
 
-> Dale un artículo. Te dirá si los resultados realmente se reproducen.
+> Dale un artículo. Te dice si los resultados realmente se reproducen.
 
-**ReproRun** es una skill personalizada de [Claude Code](https://claude.com/claude-code) que automatiza el doloroso camino desde *"un artículo afirma X"* hasta *"X realmente funciona en mi máquina."* Los artículos presentan cifras hermosas; reproducirlas normalmente muere en código roto, entornos que no se pueden construir y deriva de versiones. ReproRun gestiona toda la canalización de principio a fin:
+**ReproRun** es una **skill de agente de IA** portátil — utilizable por cualquier asistente de programación con IA compatible — que automatiza el doloroso camino desde *"un artículo afirma X"* hasta *"X realmente se ejecuta en mi máquina."* Los artículos presentan cifras hermosas; reproducirlas normalmente muere en código roto, entornos que no se pueden construir y deriva de versiones. ReproRun gestiona toda la canalización de principio a fin:
 
 **leer el artículo → encontrar código y datos → construir el entorno → prueba de humo → ejecución completa → comparar las cifras medidas con las afirmaciones del artículo.**
 
@@ -73,11 +73,11 @@ Validado de principio a fin en 4 artículos de distintos dominios y lenguajes:
 
 ## 📦 Primeros pasos
 
-ReproRun es una skill de Claude Code. Para usarla:
+ReproRun es una skill de agente que funciona con cualquier asistente de programación con IA compatible. Para usarla:
 
-1. Instala [Claude Code](https://claude.com/claude-code).
-2. Coloca la carpeta `paper-reproduction/` donde Claude Code pueda cargar skills.
-3. En una sesión de Claude Code, simplemente pídelo — por ejemplo, *"reproduce scVelo"* o *"reproduce la Tabla 2 de este artículo."* La skill se activa automáticamente.
+1. Usa un agente de programación con IA que pueda cargar skills.
+2. Coloca la carpeta `paper-reproduction/` donde tu agente cargue las skills.
+3. En una sesión, simplemente pídelo — por ejemplo, *"reproduce scVelo"* o *"reproduce la Tabla 2 de este artículo."* La skill se activa automáticamente.
 
 ---
 
@@ -102,4 +102,4 @@ Licencia: **[PolyForm Noncommercial License 1.0.0](../LICENSE)** · [Ver licenci
 
 ## 📌 Estado
 
-**v1.0.0** · estable (modo de mantenimiento) · mantenido en Claude Code
+**v1.0.0** · estable (modo de mantenimiento)

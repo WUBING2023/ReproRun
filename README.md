@@ -14,9 +14,9 @@
 
 > Give it a paper. It tells you whether the results actually reproduce.
 
-**ReproRun** is a custom [Claude Code](https://claude.com/claude-code) skill that
-automates the painful path from *"a paper claims X"* to *"X actually runs on my
-machine."* Papers ship beautiful numbers; reproducing them usually dies in broken
+**ReproRun** is a portable **AI-agent skill** — usable by any compatible AI coding
+assistant — that automates the painful path from *"a paper claims X"* to *"X
+actually runs on my machine."* Papers ship beautiful numbers; reproducing them usually dies in broken
 code, unbuildable environments, and version drift. ReproRun handles the whole
 pipeline end to end:
 
@@ -82,11 +82,11 @@ Validated end to end on 4 papers across different domains and languages:
 
 ## 📦 Getting started
 
-ReproRun is a Claude Code skill. To use it:
+ReproRun is an agent skill that works with any compatible AI coding assistant. To use it:
 
-1. Install [Claude Code](https://claude.com/claude-code).
-2. Place the `paper-reproduction/` folder where Claude Code can load skills.
-3. In a Claude Code session, just ask — e.g. *"reproduce scVelo"* or
+1. Use an AI coding agent that can load skills.
+2. Place the `paper-reproduction/` folder where your agent loads skills.
+3. In a session, just ask — e.g. *"reproduce scVelo"* or
    *"reproduce Table 2 from this paper."* The skill triggers automatically.
 
 ---
@@ -115,4 +115,4 @@ License: **[PolyForm Noncommercial License 1.0.0](LICENSE)**
 
 ## 📌 Status
 
-**v1.0.0** · stable (maintenance mode) · maintained on Claude Code
+**v1.0.0** · stable (maintenance mode)
